@@ -1,0 +1,18 @@
+#server:
+#  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eurekaServer/eureka/
+
+spring:
+  application:
+    name: client1
+  jmx:
+    enabled: false
+#spring:
+#  jmx:
+#    default-domain: my.company.domain
+
+#spring.jmx.default-domain: my.company.domain

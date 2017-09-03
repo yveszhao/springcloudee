@@ -1,0 +1,19 @@
+#server:
+#  port: 8081
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8080/eurekaServer/eureka/
+                   #http://localhost:${server.port}/eureka/
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+#spring.jmx.default-domain: my.company2.domain2
