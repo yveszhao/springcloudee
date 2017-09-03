@@ -10,7 +10,7 @@ to be able to start standalone of springboot. And the client needs to be reloade
 The eureka server is not available until the whole tomcat server is up.
 
 5. ehcache 每个服务只维护自己的缓存, spring session 实现session共享（消除sticky sessions）
-6. angularJs 双向数据绑定 . SpringMVC @RequestBody接收Json对象字符串
+6. angularJs 双向数据绑定 . SpringMVC @RequestBody接收Json对象字符串 ::: angularJs + bootstrap(jquery)
 7. properties in git
 8. auth 认证以提供服务
 @SessionAttributes("userId")
