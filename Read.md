@@ -9,4 +9,18 @@ Resolved by updating the top pom.xml and copy exactly from offcial spring cloud 
 to be able to start standalone of springboot. And the client needs to be reloaded after tomcat server is up because.
 The eureka server is not available until the whole tomcat server is up.
 
+5. ehcache 每个服务只维护自己的缓存, spring session 实现session共享（消除sticky sessions）
+6. angularJs 双向数据绑定 . SpringMVC @RequestBody接收Json对象字符串
+7. properties in git
+8. auth 认证以提供服务
+@SessionAttributes("userId")
+Circuit Breaker: Hystrix Clients
+Client Side Load Balancer: Ribbon
+Declarative REST Client: Feign
+Router and Filter: Zuul
+http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html
+
+
+
+
 
