@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SSMP Admin Tool</title>
+	<meta charset="utf-8"/>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/adminUI_common.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="script/bootstrap/css/bootstrap.min.css" />
+	
+	<script src="script/bootstrap/js/jquery.js"></script>
+	<script src="script/bootstrap/js/bootstrap.min.js"></script>
+	<script src="script/adminUI_common.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="navbar-branding">
+			<a class="navbar-brand" href="#">
+				<b>SSMP</b> Admin
+			</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<span class="menu-user">
+					<img src="img/1.jpg" class="mw30 br64">
+					<span class="hidden-xs pl15"> Yves Z. </span>
+				<a href="#" class="menu-logout">
+					<span class="hidden-xs pl15"> Logout </span>
+				</a>
+				</span>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="main">
+		<div id="wrapper">
+			<div class="overlay"></div>
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+				<ul class="sidebar-nav">
+					<li class="sidebar-brand">
+						<span style="padding-left: 10px;">
+						   SSMP 
+						   <select id="site-switcher">
+						       <option value="US">US</option>
+							   <option value="EMEA">EMEA</option>
+							   <option value="HK">Hongkong</option>
+							   <option value="AU">Australia</option>
+							   <option value="JP">Japan</option>
+							   <option value="SG">Singapore</option>
+							   <option value="SSGAFUNDS">ssgafunds</option>
+						   </select>
+						   <span id="arrow-down"></span>
+						</span>
+					</li>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#" id="funds">Funds</a>
+					</li>
+					<li>
+						<a href="#">Events</a>
+					</li>
+					<li>
+						<a href="#">Users</a>
+					</li>
+					<li>
+						<a href="#">Documents</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+					<li>
+						<a href="#">Data APIs</a>
+					</li>
+                    <li>
+                        <a href="#">Permissions</a>
+                    </li>
+				</ul>
+			</nav>
+			
+			<div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div id="container">
+				<!-- test page -->
+				<!--<iframe src="test_fund.html" width="1120" height="800" frameBorder="0"></iframe>-->
+            </div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
